@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LineOfBusinessDetailComponent } from './lineOfBusiness-detail/lineOfBusiness-detail.component';
 import { LineOfBusinessComponent } from './linesOfBusiness/linesOfBusiness.component';
 import { LineOfBusinessSearchComponent } from './lineOfBusiness-search/lineOfBusiness-search.component';
+import { PopularLinesOfBusinessComponent } from './popularLinesOfBusiness/popularLinesOfBusiness.component';
 import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
@@ -35,6 +36,7 @@ import { MessagesComponent } from './messages/messages.component';
     LineOfBusinessDetailComponent,
     LineOfBusinessComponent,
     LineOfBusinessSearchComponent,
+    PopularLinesOfBusinessComponent,
     MessagesComponent
   ],
   bootstrap: [ AppComponent ]
